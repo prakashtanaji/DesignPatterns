@@ -1,6 +1,6 @@
 # DesignPatterns
 
-## Prototype Design pattern
+## Prototype
 This is a creational design pattern, which provides guidance on best way to create prototype or clone of an existing object.
 There are two ways an object can be clones - Shallow and Deep
 In Shallow Copy any object types fields in the original object can be refferd to in the clone copy.
@@ -10,7 +10,7 @@ In Deep Copy any object types fields in the original object will be explicitly c
 
 
 
-## Chain Of Responsibility Design pattern
+## Chain Of Responsibility
 This is a Behavioral design pattern, which provides ability to chain together a hierarchy of request handlers, each with certain privelege.
 Each handlers will first examine the request to see if it has authority to respond. If not it will pass the request to its next in chain superior handler.
 Each handler will need to have the reference to its next superior handler, ideally to be set at the time of construction of the handler.
@@ -19,5 +19,14 @@ All the Handlers needs to implement the interaface method to process the request
 
 ![Image](https://photos.app.goo.gl/m1rysTjVKeJGnJeB6)
 
+
+## Singleton
+This is a Creational design pattern, which provides ability restrict the instance of a class across the process to one.
+There is quote a bit evolution involved in making sure the singleton pattern is correctly implemented. Although the straight forward way to implement it is by making the constructor of the object private to avoid anyone creating the instance and instead provide a static method to return the instance to the caller in controlled manner, by first checking if the instance exists(if not create it) and the return the instance.
+
+Although this approch might work in simple use cases where there are limited callers and its guaranteed that not all need the instance at the same time.
+But as the system becomes more complex and many threads run concurrently and needs to singleton instance, the simple implementation of the patterns break.
+
+There are other full proof implementations which ensure †hat object is truly singleton. Understanding the different implementaions of teh pattern and their drawbacks helps in making proper use of this simple design pattern.
 
 ## Misc
