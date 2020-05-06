@@ -10,4 +10,4 @@ git config user.email xyz.xyz.com
 
 Now you may be prompted for the login credentail to push the changes and it can be any valid user, may be abc@abc.com(in order to force the prompt and not make git use stored credetials from global config cache, you need to set the "git credential.helper "" " this will remove any creds from cache and force to enter creds)
 
-Once done the code will be successfully pushed but will show up the checkedin user as user.name and user.email. Note, the the user email and name at the time of commit will be picked. Also the user.name is the login who committed the code and email is the user who authored the code
+Once done the code will be successfully pushed but will show up the checkedin user as user.name and user.email. Note, the the user email and name at the time of commit will be picked. Also the user.name is the login who committed the code and also also authored the code.
