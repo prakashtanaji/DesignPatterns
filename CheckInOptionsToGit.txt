@@ -1,0 +1,13 @@
+git config user.name prakashtanaji@hotmail.com
+git config --local --list
+
+This will list all teh local repo options mainly the login user name to use to checkin in code
+The login credentials prompmt might taka any valid user creential, but =setting the user.name and email will be used to show in the git as the checked in user
+
+git config user.name xyz@xyz.com
+
+git config user.email xyz.xyz.com
+
+Now you may be prompted for the login credentail to push teh chnages it can be any valid user, may be abc@abc.com(in order to force the prompt and not make gils stored ion global config cache you need to set the "git credential.helper "" " this will remove any creds from cache and force to enter creds
+
+Once done the code will be successfully pushed but will show up the checkedin user as user.name and user.email
