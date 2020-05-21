@@ -6,7 +6,7 @@ There are two ways an object can be clones - Shallow and Deep
 In Shallow Copy any object types fields in the original object can be refferd to in the clone copy.
 In Deep Copy any object types fields in the original object will be explicitly created a new and then assigned to the clone. Hence clone will hae its own copy of object type fields.
 
-![Image](https://photos.app.goo.gl/rYAxENu4gr4xhFpf9)
+![Image](https://github.com/prakashtanaji/DesignPatterns/blob/master/resources/Prototype.png)
 
 
 
@@ -17,7 +17,7 @@ Each handler will need to have the reference to its next superior handler, ideal
 Each handler will implement a process/execute method to service the request which will be first called by the client.
 All the Handlers needs to implement the interaface method to process the request and set the reference to the next superior handler in order to be part of Chain.
 
-![Image](https://photos.app.goo.gl/m1rysTjVKeJGnJeB6)
+![Image](https://github.com/prakashtanaji/DesignPatterns/blob/master/resources/ChainOfResponsibility.png)
 
 
 ## Singleton
@@ -28,5 +28,7 @@ Although this approch might work in simple use cases where there are limited cal
 But as the system becomes more complex and many threads run concurrently and needs to singleton instance, the simple implementation of the patterns break.
 
 There are other full proof implementations which ensure †hat object is truly singleton. Understanding the different implementaions of teh pattern and their drawbacks helps in making proper use of this simple design pattern.
+
+![Image](https://github.com/prakashtanaji/DesignPatterns/blob/master/resources/Singleton.png)
 
 ## Misc
