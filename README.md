@@ -49,6 +49,6 @@ Imagine an object with huge properties and constructor running into multiple lin
 The main class provides a builder which basically has the same properies as the main class, with setters for those properties.
 The client would create an instance of the builder class and call the properties setters and when its done passing in all the properties, the client can call the build method to create and return final object all pieces put together.
 
-![Image](https://github.com/prakashtanaji/DesignPatterns/blob/master/resources/Builder.png)
+![Image](https://github.com/prakashtanaji/DesignPatterns/blob/master/resources/builder.png)
 
 ## Misc
