@@ -42,4 +42,13 @@ Typically Proxy pattern allows to control access to real implementation after it
 
 ![Image](https://github.com/prakashtanaji/DesignPatterns/blob/master/resources/Proxy.png)
 
+## Proxy
+This is a Creational design pattern, using which will allow client to create a complex object piece by piece.
+Imagine an object with huge properties and constructor running into multiple lines. The client will have to carefully manage the order of inputs and do some checks on the passed in paramters.
+
+The main class provides a builder which basically has the same properies as the main class, with setters for those properties.
+The client would create an instance of the builder class and call the properties setters and when its done passing in all the properties, the client can call the build method to create and return final object all pieces put together.
+
+![Image](https://github.com/prakashtanaji/DesignPatterns/blob/master/resources/Builder.png)
+
 ## Misc
