@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BuilderPattern",
+            "request": "launch",
+            "mainClass": "builder.BuilderPattern",
+            "projectName": "DesignPatterns_9c8a0480"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ProxyPattern",
             "request": "launch",
             "mainClass": "proxy.ProxyPattern",
