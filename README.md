@@ -31,4 +31,15 @@ There are other full proof implementations which ensure †hat object is truly s
 
 ![Image](https://github.com/prakashtanaji/DesignPatterns/blob/master/resources/Singleton.png)
 
+## Proxy
+This is a Structural design pattern, using which will allow for client to add for validation to provide controlled access to call the real objects methods, without either changing the real class implementation nor the clients which are implemented.
+
+The idea is to create an interface and have clients implement against it. The real object is implements the interface members.
+If the clients needs to intercept the calls to the real methods, a proxy is created with reference to the real object, and proay methos could 
+perform neccessary validations before calling the real method.
+
+Typically Proxy pattern allows to control access to real implementation after it is built without changing it or its client which are built around the abstracted object.
+
+![Image](https://github.com/prakashtanaji/DesignPatterns/blob/master/resources/Proxy.png)
+
 ## Misc
